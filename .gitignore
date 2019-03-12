@@ -10,10 +10,10 @@ etc
 .babelrc
 .bowerrc
 .browserslistrc
-.changelog.mg
-.config.yml
-.gulpfile.babel.js
-.package.json
-.package-lock.json
-.readme.md
-.yarn.lock
+CHANGELOG.md
+config.yml
+gulpfile.babel.js
+package.json
+package-lock.json
+readme.md
+yarn.lock
