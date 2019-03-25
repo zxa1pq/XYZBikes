@@ -40,12 +40,17 @@
   } 
 
   .image{
-    position: absolute;
+    position: relative;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -150%);
     height: 100px;
     
+  }
+
+  .image {
+    width:600px;
+    height:300px;
   }
   
   .btn{
@@ -67,11 +72,6 @@
   }
 
   
-
-
-
-
-
 
 
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
