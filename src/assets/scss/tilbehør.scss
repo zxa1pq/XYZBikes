@@ -1,0 +1,135 @@
+
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #D3D3D3;
+}
+
+.searchButton {
+  position: relative;  
+  right: -585px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid rgb(18, 19, 19);
+  background: #D3D3D3;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+/* Style the search box */
+#mySearch {
+width: 100%;
+font-size: 18px;
+padding: 11px;
+border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+background-color: #f6f6f6;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+color: black;
+display: block
+}
+
+#myMenu li a:hover {
+background-color: #eee;
+} 
+
+
+.product-card {
+background-color: $white;
+border: 1px solid $light-gray;
+padding: 1rem;
+margin-bottom: 1.5rem;  
+}
+
+.product-card-thumbnail {
+display: block;
+position: relative;
+}
+
+.product-card-title {
+font-family: 'Open sans', sans-serif;
+font-size: 0.9rem;
+font-weight: 600;
+line-height: 1.45rem;
+margin-top: 1rem;
+margin-bottom: 0;
+}
+
+.product-card-desc {
+color: $dark-gray;
+display: block;
+font-family: 'Open sans', sans-serif;
+font-size: 0.85rem;
+}
+
+.product-card-price {
+color: darken($dark-gray,30%);
+display: inline-block;
+font-size: 0.85rem;
+font-weight: 600;
+margin-top: 0.8rem;
+}
+
+.product-card-sale {
+color: $medium-gray;
+display: inline-block;
+font-size: 0.85rem;
+margin-left: 0.3rem;
+text-decoration: line-through;
+}
+
+.product-card-colors {
+display: block;
+margin-top: 0.8rem;
+}
+
+.product-card-color-option {
+display: inline-block;
+height: 25px;
+width: 25px;
+}
